@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --primary-color : rgb(31, 27, 53);
+    --accent-color: rgb(208, 225, 255);
+}
+
+.brand-logo{
+    width: 50px;
+}
