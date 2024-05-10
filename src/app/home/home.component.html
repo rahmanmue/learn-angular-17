@@ -1,12 +1,49 @@
-<section>
-    <form>
-        <input type="text" placeholder="Filter by city" #filter />
-        <button class="primary" type="button" (click)="filterResults(filter.value)">Search</button>
-    </form>
+<section class="container mt-4">
+  <form class="form-inline justify-content-center">
+    <div class="form-group">
+      <input
+        type="text"
+        class="form-control mr-2"
+        placeholder="Filter by city"
+        #filter
+      />
+      <button
+        class="btn btn-primary me-2"
+        type="button"
+        (click)="filterResults(filter.value)"
+      >
+        Search
+      </button>
+    </div>
+  </form>
 </section>
-<section class="results">
-    <!-- is Props?? similiar with Input -->
-    <app-housing-location 
-    *ngFor="let housingLocation of filteredLocationList"
-    [housingLocation]="housingLocation" ></app-housing-location>
+
+<section class="container mt-4">
+  <div class="card mb-5 p-4 shadow">
+    <div class="card-body">
+      <div class="row">
+        <div
+          class="col-md-4"
+          *ngFor="let housingLocation of filteredLocationList"
+        >
+          <div class="card mb-4">
+            <div class="card-body">
+              <img
+                class="card-img-top"
+                src="{{ housingLocation.photo }}"
+                style="width: 100%; height: 200px"
+              />
+              <h5 class="card-title mt-3">{{ housingLocation.name }}</h5>
+              <p class="card-text">Loc: {{ housingLocation.city }}</p>
+              <a
+                class="btn btn-outline-dark"
+                [routerLink]="['details', housingLocation.id]"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>

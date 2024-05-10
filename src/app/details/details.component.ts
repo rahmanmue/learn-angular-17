@@ -21,12 +21,16 @@ export class DetailsComponent {
     email: new FormControl(''),
   });
 
-  constructor(private housingService : HousingService, private route: ActivatedRoute) {
+  constructor(
+    private housingService: HousingService,
+    private route: ActivatedRoute
+  ) {
     const housingLocationId = Number(this.route.snapshot.params['id']);
     this.housingService
       .getHousingLocationById(housingLocationId)
       .then((housingLocation) => {
         this.housingLocation = housingLocation;
+        console.log('Data:', housingLocation);
       });
   }
 

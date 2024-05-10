@@ -6,6 +6,11 @@
     margin-top: 50px;
     justify-content: space-around;
   }
+
+  .form{
+    display: flex;
+    justify-content: center;
+  }
   
   input[type="text"] {
     border: solid 1px var(--primary-color);
