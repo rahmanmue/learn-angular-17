@@ -1,104 +1,104 @@
 {
-    "locations": [
-        {
-            "id": 0,
-            "name": "Acme Fresh Start Housing",
-            "city": "Chicago",
-            "state": "IL",
-            "photo": "https://angular.dev/assets/tutorials/common/bernard-hermant-CLKGGwIBTaY-unsplash.jpg",
-            "availableUnits": 4,
-            "wifi": true,
-            "laundry": true
-        },
-        {
-            "id": 1,
-            "name": "A113 Transitional Housing",
-            "city": "Santa Monica",
-            "state": "CA",
-            "photo": "https://angular.dev/assets/tutorials/common/brandon-griggs-wR11KBaB86U-unsplash.jpg",
-            "availableUnits": 0,
-            "wifi": false,
-            "laundry": true
-        },
-        {
-            "id": 2,
-            "name": "Warm Beds Housing Support",
-            "city": "Juneau",
-            "state": "AK",
-            "photo": "/assets/i-do-nothing-but-love-lAyXdl1-Wmc-unsplash.jpg",
-            "availableUnits": 1,
-            "wifi": false,
-            "laundry": false
-        },
-        {
-            "id": 3,
-            "name": "Homesteady Housing",
-            "city": "Chicago",
-            "state": "IL",
-            "photo": "https://angular.dev/assets/tutorials/common/ian-macdonald-W8z6aiwfi1E-unsplash.jpg",
-            "availableUnits": 1,
-            "wifi": true,
-            "laundry": false
-        },
-        {
-            "id": 4,
-            "name": "Happy Homes Group",
-            "city": "Gary",
-            "state": "IN",
-            "photo": "https://angular.dev/assets/tutorials/common/krzysztof-hepner-978RAXoXnH4-unsplash.jpg",
-            "availableUnits": 1,
-            "wifi": true,
-            "laundry": false
-        },
-        {
-            "id": 5,
-            "name": "Hopeful Apartment Group",
-            "city": "Oakland",
-            "state": "CA",
-            "photo": "https://angular.dev/assets/tutorials/common/r-architecture-JvQ0Q5IkeMM-unsplash.jpg",
-            "availableUnits": 2,
-            "wifi": true,
-            "laundry": true
-        },
-        {
-            "id": 6,
-            "name": "Seriously Safe Towns",
-            "city": "Oakland",
-            "state": "CA",
-            "photo": "https://angular.dev/assets/tutorials/common/phil-hearing-IYfp2Ixe9nM-unsplash.jpg",
-            "availableUnits": 5,
-            "wifi": true,
-            "laundry": true
-        },
-        {
-            "id": 7,
-            "name": "Hopeful Housing Solutions",
-            "city": "Oakland",
-            "state": "CA",
-            "photo": "https://angular.dev/assets/tutorials/common/r-architecture-GGupkreKwxA-unsplash.jpg",
-            "availableUnits": 2,
-            "wifi": true,
-            "laundry": true
-        },
-        {
-            "id": 8,
-            "name": "Seriously Safe Towns",
-            "city": "Oakland",
-            "state": "CA",
-            "photo": "https://angular.dev/assets/tutorials/common/saru-robert-9rP3mxf8qWI-unsplash.jpg",
-            "availableUnits": 10,
-            "wifi": false,
-            "laundry": false
-        },
-        {
-            "id": 9,
-            "name": "Capital Safe Towns",
-            "city": "Portland",
-            "state": "OR",
-            "photo": "https://angular.dev/assets/tutorials/common/webaliser-_TPTXZd9mOo-unsplash.jpg",
-            "availableUnits": 6,
-            "wifi": true,
-            "laundry": true
-        }
-    ]
+  "locations": [
+    {
+      "id": 0,
+      "name": "Acme Fresh Start Housing",
+      "city": "Chicago",
+      "state": "IL",
+      "photo": "https://images.unsplash.com/photo-1556912173-3bb406ef7e77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGtpdGNoZW58ZW58MHx8MHx8fDA%3D",
+      "availableUnits": 4,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 1,
+      "name": "A113 Transitional Housing",
+      "city": "Santa Monica",
+      "state": "CA",
+      "photo": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1558&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "availableUnits": 0,
+      "wifi": false,
+      "laundry": true
+    },
+    {
+      "id": 2,
+      "name": "Warm Beds Housing Support",
+      "city": "Juneau",
+      "state": "AK",
+      "photo": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvbWV8ZW58MHx8MHx8fDA%3D",
+      "availableUnits": 1,
+      "wifi": false,
+      "laundry": false
+    },
+    {
+      "id": 3,
+      "name": "Homesteady Housing",
+      "city": "Chicago",
+      "state": "IL",
+      "photo": "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvbWV8ZW58MHx8MHx8fDA%3D",
+      "availableUnits": 1,
+      "wifi": true,
+      "laundry": false
+    },
+    {
+      "id": 4,
+      "name": "Happy Homes Group",
+      "city": "Gary",
+      "state": "IN",
+      "photo": "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvbWV8ZW58MHx8MHx8fDA%3D",
+      "availableUnits": 1,
+      "wifi": true,
+      "laundry": false
+    },
+    {
+      "id": 5,
+      "name": "Hopeful Apartment Group",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "https://plus.unsplash.com/premium_photo-1676321688612-4451a8721435?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhvbWV8ZW58MHx8MHx8fDA%3D",
+      "availableUnits": 2,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 6,
+      "name": "Seriously Safe Towns",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhvbWV8ZW58MHx8MHx8fDA%3D",
+      "availableUnits": 5,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 7,
+      "name": "Hopeful Housing Solutions",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "https://plus.unsplash.com/premium_photo-1664193968881-e3a50535c08c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG9tZXxlbnwwfHwwfHx8MA%3D%3D",
+      "availableUnits": 2,
+      "wifi": true,
+      "laundry": true
+    },
+    {
+      "id": 8,
+      "name": "Seriously Safe Towns",
+      "city": "Oakland",
+      "state": "CA",
+      "photo": "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG9tZXxlbnwwfHwwfHx8MA%3D%3D",
+      "availableUnits": 10,
+      "wifi": false,
+      "laundry": false
+    },
+    {
+      "id": 9,
+      "name": "Capital Safe Towns",
+      "city": "Portland",
+      "state": "OR",
+      "photo": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8a2l0Y2hlbnxlbnwwfHwwfHx8MA%3D%3D",
+      "availableUnits": 6,
+      "wifi": true,
+      "laundry": true
+    }
+  ]
 }
